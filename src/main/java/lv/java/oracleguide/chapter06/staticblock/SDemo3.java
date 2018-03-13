@@ -1,0 +1,11 @@
+package lv.java.oracleguide.chapter06.staticblock;
+
+public class SDemo3 {
+
+    public static void main(String[] args) {
+
+        StaticBlock ob = new StaticBlock("Внутри конструктора");
+        System.out.println("Корень квадратный из 2 равен " + StaticBlock.rootOf2);
+        System.out.println("Корень квадратный из 3 равен " + StaticBlock.rootOf3);
+    }
+}
